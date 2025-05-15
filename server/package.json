@@ -1,0 +1,24 @@
+{
+  "name": "shio-editor",
+  "version": "2025.1",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/openviglet/shio-editor.git",
+  "author": "Alexandre Oliveira <alexandre.oliveira@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.17.1",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/express": "4.17.1",
+    "@eslint/js": "^9.26.0",
+    "eslint": "^9.26.0",
+    "globals": "^16.1.0",
+    "typescript-eslint": "^8.32.1"
+  }
+}
